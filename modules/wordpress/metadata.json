@@ -1,0 +1,47 @@
+{
+  "project_page": "https://github.com/rcoleman/puppet-wordpress",
+  "author": "jonhadfield/rcoleman",
+  "checksums": {
+    "spec/spec_helper.rb": "ca19ec4f451ebc7fdb035b52eae6e909",
+    "manifests/adminuser.pp": "5fe6a2459654e6128d4217adb74113d4",
+    "lib/puppet/type/README.markdown": "34b8c80ba8683afca99f2d28ca7e70b2",
+    "templates/wordpress-mysqldump.erb": "267496a6e762efb159a7750ed8ad4158",
+    "templates/wordpress-admin.erb": "f0f35c8a70f3975f28c208022f2f81db",
+    "spec/unit/puppet/provider/README.markdown": "e52668944ee6af2fb5d5b9e798342645",
+    "templates/create_wordpress_db.erb": "d66257e5dff029aa6c79884d27bd55ea",
+    "manifests/app.pp": "65d1e3f89dee896d0bd93867cd727f20",
+    "files/plugins/wordpress-importer.0.5.zip": "646012802614f10ce5d70109723547e9",
+    "tests/wordpress.pp": "892eb74aee0d260adc584274b65f4162",
+    "files/wordpress-3.2.1.zip": "7f95b2f29516b04a1a3d07f69849732b",
+    "files/themes/suffusion.3.8.2.zip": "50fe7ab9e918b551d29403d229b69095",
+    "files/README.markdown": "3d44458cc68d8513b51e3b56c604eec4",
+    "lib/puppet/provider/README.markdown": "3835801d7626dd8d541c4fdf7ca9f3e4",
+    "lib/puppet/parser/functions/README.markdown": "e596ce938864a80fd1e51640cca7f612",
+    "README": "6766c69c2aaaf7696d7a14601f29858d",
+    "manifests/README.markdown": "b9970454391883e36b55137328792a55",
+    "tests/init.pp": "4014551db4bf647d4e7b990741206967",
+    "templates/README.markdown": "aada0a1952329e46b98695349dba6203",
+    "spec/README.markdown": "32a1fc0121c28aff554ef5d422b8b51e",
+    "manifests/db.pp": "024349ddc6824c45b88918adad5dfa37",
+    "lib/facter/README.markdown": "145e26334b4d80e48e9e55ba78800579",
+    "files/themes/graphene.1.4.1.zip": "7427fafa0dc9e6f6625e32e6637dd29d",
+    "templates/wp-config.erb": "643b9c04078e7ba88e80d81865a1be39",
+    "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+    "spec/unit/puppet/type/README.markdown": "de26a7643813abd6c2e7e28071b1ef94",
+    "Modulefile": "780644b0b2e7f046c1a1a881218a0094",
+    "manifests/init.pp": "18b059953ca28b08ceff017e46d91b17",
+    "files/wordpress.conf": "f734e9824bbd52f1eedf0a8f1f9469c4"
+  },
+  "dependencies": [
+
+  ],
+  "license": "Apache",
+  "summary": "Puppet module to set up an instance of wordpress, based on work by jonhadfield.",
+  "description": "Installs wordpress and configures an initial site for demonstration purposes. Also allows creation of admin users for the wordpress instance. This was based on work by jonhadfield but the module had drifted quite a bit from his original work. I plan to contact the author and see if a merge makes sense once my development stabilizes.",
+  "source": "https://github.com/rcoleman/puppet-wordpress",
+  "version": "0.0.4",
+  "name": "puppet-wordpress",
+  "types": [
+
+  ]
+}

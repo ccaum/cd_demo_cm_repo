@@ -1,0 +1,10 @@
+{
+   "mysql::server::config_hash": {
+     "root_password": "password"
+   },
+   "ntp::restrict" : true,
+   "ntp::servers" : [
+      "grover-staging.example.com iburst",
+      "kermit-staging.example.com iburst"
+     ]
+}

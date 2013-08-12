@@ -1,0 +1,7 @@
+{
+   "ntp::restrict" : true,
+   "ntp::servers" : [
+      "ntp1.example.com iburst",
+      "ntp2.example.com iburst"
+     ]
+}

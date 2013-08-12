@@ -1,0 +1,7 @@
+{
+   "ntp::restrict" : true,
+   "ntp::servers" : [
+      "grover.example.com iburst",
+      "kermit.example.com iburst"
+     ]
+}

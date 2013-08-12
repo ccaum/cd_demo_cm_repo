@@ -1,0 +1,10 @@
+---
+:backends:
+  - json
+:json:
+  :datadir: "/etc/puppet/environments/%{environment}/hiera"
+:hierarchy:
+  - "nodes/%{clientcert}"
+  - "sites/%{site}"
+  - "environments/%{environment}"
+  - "global"

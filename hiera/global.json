@@ -1,0 +1,13 @@
+{
+  "classes": [ "ntp" ],
+  "mcollective::stomp_pool": {
+    "pool1": {
+      "host1": "puppetmaster.vagrant.internal",
+      "port1": "6163",
+      "user1": "mcollective",
+      "password1": "marionette"
+    }
+  },
+  "mcollective::connector": "stomp",
+  "mcollective::manage_plugins": true
+}

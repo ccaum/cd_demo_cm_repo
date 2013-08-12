@@ -1,0 +1,6 @@
+{
+   "ntp::restrict" : true,
+   "ntp::servers" : [
+      "kermit-uat.example.com iburst"
+     ]
+}

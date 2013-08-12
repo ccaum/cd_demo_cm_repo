@@ -1,0 +1,30 @@
+{
+  "mcollective::client": true,
+  "puppet::puppet_server": "puppetmaster.vagrant.internal",
+  "puppet::master::autosign": true,
+  "puppet::master::modulepath": "/etc/puppet/environments/$environment/modules",
+  "puppet::master::manifestdir": "/etc/puppet/environments/$environment/manifests",
+  "puppet::master::manifest": "/etc/puppet/environments/$environment/manifests/site.pp",
+  "puppet::master::hiera_config": "/etc/puppet/environments/$environment/hiera/hiera.yaml",
+  "puppet::master::puppet_master_package": "puppet-server-3.2.3.390-1.el6.noarch",
+  "puppet::master::puppet_master_package_source": "/vagrant/provisions/packages/puppet-server-3.2.3.390-1.el6.noarch.rpm",
+  "puppet::master::puppet_master_package_provider": "rpm",
+  "puppet::master::puppet_agent_package": "puppet-3.2.3.390-1.el6.noarch",
+  "puppet::master::puppet_agent_package_source": "/vagrant/provisions/packages/puppet-3.2.3.390-1.el6.noarch.rpm",
+  "puppet::master::puppet_agent_package_provider": "rpm",
+  "puppet::master::puppet_passenger": true,
+  "puppet::master::config_version": "/usr/bin/git --git-dir /opt/puppet/puppet_git/.git rev-parse --short $environment 2>/dev/null || echo",
+  "puppet::master::reports": "store,puppetdb",
+  "puppetdb::package_source": "/vagrant/provisions/packages/puppetdb-1.4.1.burgundy.prototype3-1.el6.noarch.rpm",
+  "puppetdb::package_provider": "rpm",
+  "puppetdb::open_listen_port": false,
+  "puppetdb::open_ssl_listen_port": false,
+  "puppetdb::open_postgres_port": false,
+  "puppetdb::listen_address": "0.0.0.0",
+  "puppetdb::puppetdb_server": "puppetmaster.vagrant.internal",
+  "jenkins::config_hash": {
+    "JENKINS_PORT": {
+      "value": "9090"
+    }
+  }
+}
