@@ -6,5 +6,6 @@
   "wordpress::db_host": "172.16.3.12",
   "wordpress::db_name": "wordpress",
   "wordpress::db_user": "wordpress",
-  "wordpress::db_password": "wordpress_pass"
+  "wordpress::db_password": "wordpress_pass",
+  "wordpress::server": "172.16.3.16"
 }
