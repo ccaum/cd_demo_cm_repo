@@ -76,6 +76,7 @@ define mysql::db (
         command     => "/usr/bin/mysql ${name} < ${sql}",
         logoutput   => true,
         refreshonly => $refresh,
+	environment => "HOME=${root_home}",
         require     => Database_grant["${user}@${host}/${name}"],
         subscribe   => Database[$name],
       }

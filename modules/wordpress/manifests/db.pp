@@ -1,28 +1,30 @@
-# Class wordpress::db
-#
-# This class restores the wordpress database from a mysql dump taken right after installation.
-#
-# Requires:
-#  The mysql::server class from the puppetlabs-mysql module.
-class wordpress::db {
+class wordpress::db (
+  $create_db,
+  $create_db_user,
+  $db_name,
+  $db_host,
+  $db_user,
+  $db_password,
+) {
+  validate_bool($create_db,$create_db_user)
+  validate_string($db_name,$db_host,$db_user,$db_password)
 
-  if $::ec2_public_hostname {
-    $sitehost = $::ec2_public_hostname
+  ## Set up DB using puppetlabs-mysql defined type
+  if $create_db {
+    database { $db_name:
+      charset => 'utf8',
+      require => Class['wordpress::app'],
+    }
   }
-  else {
-    $sitehost = $::fqdn
-  }
-
-  file { '/opt/wordpress/wordpress.mysql':
-    ensure  => file,
-    content => template('wordpress/wordpress-mysqldump.erb'),
-    notify  => Exec['restore-fresh-db'],
-    require => Class['mysql::server'],
-  }
-  exec { "restore-fresh-db":
-    path        => '/usr/bin',
-    command     => "mysql -D wordpress < /opt/wordpress/wordpress.mysql",
-    refreshonly => true,
+  if $create_db_user {
+    database_user { "${db_user}@${db_host}":
+      password_hash => mysql_password($db_password),
+      require       => Class['wordpress::app'],
+    }
+    database_grant { "${db_user}@${db_host}/${db_name}":
+      privileges => ['all'],
+      require    => Class['wordpress::app'],
+    }
   }
 
 }

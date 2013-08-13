@@ -6,5 +6,10 @@
    "ntp::servers" : [
       "grover-staging.example.com iburst",
       "kermit-staging.example.com iburst"
-     ]
+     ],
+   "wordpress::db_host": "172.16.2.12",
+   "wordpress::db_name": "wordpress",
+   "wordpress::db_user": "wordpress",
+   "wordpress::db_password": "wordpress_pass"
+
 }

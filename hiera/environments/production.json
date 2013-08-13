@@ -1,10 +1,14 @@
 {
-   "mysql::server::config_hash": {
-     "root_password": "oiajwefoijawoefij"
-   },
-   "ntp::restrict" : true,
-   "ntp::servers" : [
-      "grover.example.com iburst",
-      "kermit.example.com iburst"
-     ]
+  "mysql::server::config_hash": {
+    "root_password": "oiajwefoijawoefij"
+  },
+  "ntp::restrict" : true,
+  "ntp::servers" : [
+     "grover.example.com iburst",
+     "kermit.example.com iburst"
+    ],
+  "wordpress::db_host": "172.16.3.12",
+  "wordpress::db_name": "wordpress",
+  "wordpress::db_user": "wordpress",
+  "wordpress::db_password": "ijawef8H8j23jf"
 }

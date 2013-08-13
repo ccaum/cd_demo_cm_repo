@@ -2,12 +2,20 @@
   "classes": [ "ntp" ],
   "mcollective::stomp_pool": {
     "pool1": {
-      "host1": "puppetmaster.vagrant.internal",
+      "host1": "puppet",
       "port1": "6163",
       "user1": "mcollective",
       "password1": "marionette"
     }
   },
   "mcollective::connector": "stomp",
-  "mcollective::manage_plugins": true
+  "mcollective::manage_plugins": true,
+  "wordpress::create_db": false,
+  "wordpress::create_db_user": false,
+  "wordpress::install_dir": "/opt/wordpress",
+  "wordpress::wp_user": "www-data",
+  "wordpress::wp_group": "www-data",
+  "apache::mpm_module": "prefork",
+  "apache::default_vhost": false,
+  "mysql::config::bind_address": "0.0.0.0"
 }

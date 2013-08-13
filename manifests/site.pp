@@ -1,15 +1,3 @@
-node 'mongodb.vagrant.internal' {
-  include mongodb
-}
-
-node 'mongodb-staging.vagrant.internal' {
-  include mongodb
-}
-
-node 'mongodb-02.vagrant.internal' {
-  include mongodb
-}
-
 node 'puppetmaster.vagrant.internal' {
   include cd_demo
   include jenkins
@@ -20,25 +8,17 @@ node 'puppetmaster.vagrant.internal' {
   include puppetdb::master::config
   include java
   include ruby::dev
-  #include passenger
   include activemq
 
   Class['java'] -> Class['activemq'] -> Class['mcollective']
-  #Class['ruby::dev'] -> Class['passenger']
 }
 
-node 'mysql.vagrant.internal' {
-  include mysql::server
+node /mysql-.*\.vagrant\.internal/ {
+  include corpapp::db
+  include mcollective
 }
 
-node 'mysql-staging.vagrant.internal' {
-  include mysql::server
-}
-
-node 'corpsite.vagrant.internal' {
+node /corpsite-.*\.vagrant\.internal/ {
   include corpapp
-}
-
-node 'corpsite-staging.vagrant.internal' {
-  include corpapp
+  include mcollective
 }
