@@ -41,7 +41,7 @@ class corpapp {
   }
 
   file { 'root private ssh key':
-    path   => '/root/.ssh/id_rsa':
+    path   => '/root/.ssh/id_rsa',
     source => 'puppet:///modules/corpapp/id_dsa',
     owner  => 0,
     group  => 0,
