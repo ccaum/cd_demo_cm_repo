@@ -9,6 +9,7 @@ node 'puppetmaster.vagrant.internal' {
   include java
   include ruby::dev
   include activemq
+  include corpapp::testing
 
   Class['java'] -> Class['activemq'] -> Class['mcollective']
 }
