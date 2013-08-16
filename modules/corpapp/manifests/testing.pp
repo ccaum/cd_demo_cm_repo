@@ -1,12 +1,9 @@
 class corpapp::testing {
-  file { '/etc/xinetd.d/git':
-    source => 'puppet:///modules/corpapp/git.xinetd',
-    notify => Service['xinetd'],
-  }
-
-  service { 'xinetd':
-    ensure => running,
-    enable => true,
+  xinetd::service { 'git':
+    wait        => 'no',
+    user        => 'nobody',
+    server      => '/usr/bin/git',
+    server_args => 'daemon --inetd --reuseaddr --export-all /opt/puppet',
   }
 
   file { '/root/reset-certs.sh':
