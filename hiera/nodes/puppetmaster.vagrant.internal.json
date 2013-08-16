@@ -15,7 +15,7 @@
   "puppet::master::puppet_passenger": true,
   "puppet::master::config_version": "/usr/bin/git --git-dir /opt/puppet/puppet_git/.git rev-parse --short $environment 2>/dev/null || echo",
   "puppet::master::reports": "store,puppetdb",
-  "puppetdb::package_source": "/vagrant/provisions/packages/puppetdb-1.4.1.burgundy.prototype3-1.el6.noarch.rpm",
+  "puppetdb::package_source": "/vagrant/provisions/packages/puppetdb-1.4.6.burgundy.prototype6-1.el6.noarch.rpm",
   "puppetdb::package_provider": "rpm",
   "puppetdb::open_listen_port": false,
   "puppetdb::open_ssl_listen_port": false,
