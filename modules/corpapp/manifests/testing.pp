@@ -1,4 +1,14 @@
 class corpapp::testing {  
+  file { '/etc/xinetd.d/git':
+    source => 'puppet:///modules/corpapp/git.xinetd',
+    notify => Service['xinetd'],
+  }
+
+  service { 'xinetd':
+    ensure => running,
+    enable => true,
+  }
+
   file { '/root/reset-certs.sh':
     source => 'puppet:///modules/corpapp/reset-certs.sh',
     owner  => 0,
