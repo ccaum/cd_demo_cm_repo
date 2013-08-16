@@ -7,6 +7,10 @@ class corpapp::testing {
     server_args => 'daemon --inetd --reuseaddr --export-all /opt/puppet',
   }
 
+  package { 'git-daemon':
+    ensure => installed,
+  }
+
   file { '/root/reset-certs.sh':
     source => 'puppet:///modules/corpapp/reset-certs.sh',
     owner  => 0,
