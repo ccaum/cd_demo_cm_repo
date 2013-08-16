@@ -1,4 +1,8 @@
 class corpapp::testing {
+  resources { 'firewall':
+    purge => true,
+  }
+
   xinetd::service { 'git':
     port        => '9418',
     wait        => 'no',
