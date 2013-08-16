@@ -1,5 +1,6 @@
 class corpapp::testing {
   xinetd::service { 'git':
+    port        => '9418',
     wait        => 'no',
     user        => 'nobody',
     server      => '/usr/bin/git',
