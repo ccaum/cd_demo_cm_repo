@@ -2,6 +2,7 @@ node 'puppetmaster.vagrant.internal' {
   include cd_demo
   include jenkins
   include jenkins_plugins
+  include jenkins_plugins::jobs
   include mcollective
   include puppet::master
   include puppetdb
