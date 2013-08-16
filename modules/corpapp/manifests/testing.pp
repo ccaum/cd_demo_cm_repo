@@ -1,4 +1,4 @@
-class corpapp::testing {  
+class corpapp::testing {
   file { '/etc/xinetd.d/git':
     source => 'puppet:///modules/corpapp/git.xinetd',
     notify => Service['xinetd'],
@@ -37,6 +37,13 @@ class corpapp::testing {
     owner  => 0,
     group  => 0,
     mode   => 0600,
+  }
+
+  file { '/var/lib/jenkins/.ssh':
+    ensure => directory,
+    owner  => jenkins,
+    group  => jenkins,
+    mode   => 700,
   }
 
   file { 'jenkins private ssh key':
