@@ -7,4 +7,6 @@ class jenkins_plugins {
   jenkins::plugin { 'ssh-credentials': }
   jenkins::plugin { 'ssh-slaves': }
   jenkins::plugin { 'build-pipeline-plugin': }
+  jenkins::plugin { 'parameterized-trigger': }
+  jenkins::plugin { 'jquery': }
 }
