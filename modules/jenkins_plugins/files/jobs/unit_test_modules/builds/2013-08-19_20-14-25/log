@@ -1,0 +1,45 @@
+Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/jobs/unit_test_modules/workspace
+Checkout:workspace / /var/lib/jenkins/jobs/unit_test_modules/workspace - hudson.remoting.LocalChannel@73e3ee7a
+Using strategy: Default
+ERROR: Workspace has a .git repository, but it appears to be corrupt.
+[8mha:AAAAWB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P08vOT+vOD8nVc8DzHWtSE4tKMnMz/PLL0ldFVf2c+b/lb5MDAwVRQxSaBqcITRIIQMEMIIUFgAAckCEiWAAAAA=[0mhudson.plugins.git.GitException: Command "git rev-parse --is-inside-work-tree" returned status code 128:
+stdout: 
+stderr: fatal: Not a git repository (or any of the parent directories): .git
+
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommandIn(CliGitAPIImpl.java:790)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:756)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.launchCommand(CliGitAPIImpl.java:766)
+	at org.jenkinsci.plugins.gitclient.CliGitAPIImpl.hasGitRepo(CliGitAPIImpl.java:96)
+	at hudson.plugins.git.GitAPI.hasGitRepo(GitAPI.java:177)
+	at hudson.plugins.git.GitSCM$2.invoke(GitSCM.java:964)
+	at hudson.plugins.git.GitSCM$2.invoke(GitSCM.java:942)
+	at hudson.FilePath.act(FilePath.java:909)
+	at hudson.FilePath.act(FilePath.java:882)
+	at hudson.plugins.git.GitSCM.determineRevisionToBuild(GitSCM.java:942)
+	at hudson.plugins.git.GitSCM.checkout(GitSCM.java:1108)
+	at hudson.model.AbstractProject.checkout(AbstractProject.java:1408)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.defaultCheckout(AbstractBuild.java:676)
+	at jenkins.scm.SCMCheckoutStrategy.checkout(SCMCheckoutStrategy.java:88)
+	at hudson.model.AbstractBuild$AbstractBuildExecution.run(AbstractBuild.java:581)
+	at hudson.model.Run.execute(Run.java:1603)
+	at hudson.model.FreeStyleBuild.run(FreeStyleBuild.java:46)
+	at hudson.model.ResourceController.execute(ResourceController.java:88)
+	at hudson.model.Executor.run(Executor.java:247)
+Cloning the remote Git repository
+Cloning repository git://puppetmaster/opt/puppet/puppet_git
+git --version
+git version 1.7.1
+Fetching upstream changes from origin
+Commencing build of Revision d65eff082114b160dca08bfe182ab565b1883997 (origin/dev)
+Checking out Revision d65eff082114b160dca08bfe182ab565b1883997 (origin/dev)
+No change to record in branch origin/dev
+[workspace] $ /bin/sh -xe /tmp/hudson9053127901014062445.sh
++ cd /opt/puppet/puppet_git
+++ uniq
+++ cut -d/ -f2
+++ grep '^modules'
+++ git diff-tree --no-commit-id --name-only -r HEAD
++ modules=cd_demo
+Triggering a new build of [8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment #25
+Finished: SUCCESS

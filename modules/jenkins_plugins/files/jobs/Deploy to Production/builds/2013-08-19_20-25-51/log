@@ -1,0 +1,88 @@
+Building remotely on [8mha:AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/bLE9KLEvBIAdgC8CcYAAAA=[0mvagrant in workspace /Users/ccaum/projects/cd-prototype/workspace/Deploy to Production
+[Deploy to Production] $ /bin/sh -xe /var/folders/sv/1kbtchzx3v36y2pk0mzxhgyc0000gp/T/hudson8482254093378750998.sh
++ cd /Users/ccaum/cd-prototype/stages/production
++ vagrant provision
+[mysql] Running provisioner: shell...
+[mysql] Running: /Users/ccaum/projects/cd-puppet/stages/production/provisions/ubuntu.sh
+stdin: is not a tty
+/usr/bin/puppet
+[mysql] Running provisioner: shell...
+[mysql] Running: /Users/ccaum/projects/cd-puppet/stages/production/provisions/run-puppet.sh
+stdin: is not a tty
+host { 'puppet':
+  ensure => 'present',
+  ip     => '172.16.1.10',
+  target => '/etc/hosts',
+}
+
+[0;32mInfo: Retrieving plugin[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/pe_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/concat_basedir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/etckepper_puppet.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/postgres_default_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/puppet_vardir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_persistent_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/ip6tables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/facter_dot_d.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/root_home.rb[0m
+
+[0;32mInfo: Caching catalog for mysql-production.vagrant.internal[0m
+
+[0;32mInfo: Applying configuration version 'd65eff0'[0m
+
+[mNotice: Finished catalog run in 0.93 seconds[0m
+
+[corpsite] Running provisioner: shell...
+[corpsite] Running: /Users/ccaum/projects/cd-puppet/stages/production/provisions/ubuntu.sh
+stdin: is not a tty
+/usr/bin/puppet
+[corpsite] Running provisioner: shell...
+[corpsite] Running: /Users/ccaum/projects/cd-puppet/stages/production/provisions/run-puppet.sh
+stdin: is not a tty
+host { 'puppet':
+  ensure => 'present',
+  ip     => '172.16.1.10',
+  target => '/etc/hosts',
+}
+
+[0;32mInfo: Retrieving plugin[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/pe_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/concat_basedir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/etckepper_puppet.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/postgres_default_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/puppet_vardir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_persistent_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/ip6tables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/facter_dot_d.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/root_home.rb[0m
+
+[0;32mInfo: Caching catalog for corpsite-production.vagrant.internal[0m
+
+[0;32mInfo: Applying configuration version 'd65eff0'[0m
+
+[mNotice: Finished catalog run in 5.36 seconds[0m
+
+Triggering a new build of [8mha:AAAAph+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/az8JP2A/OISVSMDl9SCnPxKICMktbikWB8A3r/F4NAAAAA=[0mPost Deploy Tests #3
+Finished: SUCCESS

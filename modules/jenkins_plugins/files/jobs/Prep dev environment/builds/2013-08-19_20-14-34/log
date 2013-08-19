@@ -1,0 +1,21 @@
+Started by upstream project "[8mha:AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP3SvMyS+JLU4pL43PyU0pzUYn0ABEmBrMwAAAA=[0munit_test_modules" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JP3SvMyS+JLU4pL43PyU0pzUYn1jcwAVVFQvzgAAAA==[0m37
+originally caused by:
+ Started by user [8mha:AAAAlh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzOEgYu/dLi1CL9vNKcHACFIKlWvwAAAA==[0manonymous
+Building on master in workspace /var/lib/jenkins/jobs/Prep dev environment/workspace
+[workspace] $ /bin/sh -xe /tmp/hudson1183876772221011340.sh
++ ssh root@localhost 'bash /root/reset-certs.sh'
+/root/reset-certs.sh: line 5: [: too many arguments
+[mNotice: Revoked certificate with serial 6[0m
+[mNotice: Revoked certificate with serial 4[0m
+[mNotice: Revoked certificate with serial 5[0m
+[mNotice: Revoked certificate with serial 3[0m
+[mNotice: Removing file Puppet::SSL::Certificate corpsite-production.vagrant.internal at '/var/lib/puppet/ssl/ca/signed/corpsite-production.vagrant.internal.pem'[0m
+[mNotice: Removing file Puppet::SSL::Certificate corpsite-production.vagrant.internal at '/var/lib/puppet/ssl/certs/corpsite-production.vagrant.internal.pem'[0m
+[mNotice: Removing file Puppet::SSL::Certificate corpsite-staging.vagrant.internal at '/var/lib/puppet/ssl/ca/signed/corpsite-staging.vagrant.internal.pem'[0m
+[mNotice: Removing file Puppet::SSL::Certificate corpsite-staging.vagrant.internal at '/var/lib/puppet/ssl/certs/corpsite-staging.vagrant.internal.pem'[0m
+[mNotice: Removing file Puppet::SSL::Certificate mysql-production.vagrant.internal at '/var/lib/puppet/ssl/ca/signed/mysql-production.vagrant.internal.pem'[0m
+[mNotice: Removing file Puppet::SSL::Certificate mysql-production.vagrant.internal at '/var/lib/puppet/ssl/certs/mysql-production.vagrant.internal.pem'[0m
+[mNotice: Removing file Puppet::SSL::Certificate mysql-staging.vagrant.internal at '/var/lib/puppet/ssl/ca/signed/mysql-staging.vagrant.internal.pem'[0m
+[mNotice: Removing file Puppet::SSL::Certificate mysql-staging.vagrant.internal at '/var/lib/puppet/ssl/certs/mysql-staging.vagrant.internal.pem'[0m
+Triggering a new build of [8mha:AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYx/az8JP2AnMSStPyiXFUjg5DU4pJifQBKmfopywAAAA==[0mPlatform Tests #11
+Finished: SUCCESS

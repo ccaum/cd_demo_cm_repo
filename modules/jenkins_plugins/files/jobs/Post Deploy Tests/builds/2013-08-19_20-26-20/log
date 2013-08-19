@@ -1,0 +1,24 @@
+Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JH2X1IKc/EpVI4OSfCARUJSfUppckpmfpw8ATxF/09MAAAA=[0mDeploy to Production" build number [8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnn9rPwkfZfUgpz8SlUjg5J8IBFQlJ9SmlySmZ+nbwwAAKhGctQAAAA=[0m3
+originally caused by:
+ Building on master in workspace /var/lib/jenkins/jobs/Post Deploy Tests/workspace
+[workspace] $ /bin/sh -xe /tmp/hudson2086935174038249994.sh
++ grep '<img width="849" height="288" src="http://172.16.1.16/wp-content/uploads/2013/08/banner-shirtback.jpg" class="attachment-post-thumbnail wp-post-image" alt="banner-shirtback" />'
++ curl http://172.16.1.16
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0102  4089  102  4089    0     0  39300      0 --:--:-- --:--:-- --:--:-- 40485
+				<img width="849" height="288" src="http://172.16.1.16/wp-content/uploads/2013/08/banner-shirtback.jpg" class="attachment-post-thumbnail wp-post-image" alt="banner-shirtback" />			</a>
++ wget http://172.16.1.16/wp-content/uploads/2013/08/banner-shirtback.jpg -O /dev/null
+--2013-08-19 20:26:20--  http://172.16.1.16/wp-content/uploads/2013/08/banner-shirtback.jpg
+Connecting to 172.16.1.16:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 148279 (145K) [image/jpeg]
+Saving to: “/dev/null”
+
+     0K .......... .......... .......... .......... .......... 34% 51.5M 0s
+    50K .......... .......... .......... .......... .......... 69% 29.5M 0s
+   100K .......... .......... .......... .......... ....      100% 38.6M=0.004s
+
+2013-08-19 20:26:20 (37.8 MB/s) - “/dev/null” saved [148279/148279]
+
+Finished: SUCCESS

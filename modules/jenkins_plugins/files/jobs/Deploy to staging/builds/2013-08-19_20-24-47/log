@@ -1,0 +1,106 @@
+Started by upstream project "[8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/az8JP2CovxcoLyqkQFQV1pmOpBRnFqiDwAnMxEF0QAAAA==[0mpromote config set" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBln9rPwk/YKi/FygvKqRAVBXWmY6kFGcWqJvDgB1vwxx0gAAAA==[0m7
+originally caused by:
+ Started by upstream project "[8mha:AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYx/az8JP2AnMSStPyiXFUjg5DU4pJifQBKmfopywAAAA==[0mPlatform Tests" build number [8mha:AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYJ/az8JP2AnMSStPyiXFUjg5DU4pJifUNDAG9TtxnNAAAA[0m11
+ originally caused by:
+  Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+  originally caused by:
+   Started by upstream project "[8mha:AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP3SvMyS+JLU4pL43PyU0pzUYn0ABEmBrMwAAAA=[0munit_test_modules" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JP3SvMyS+JLU4pL43PyU0pzUYn1jcwAVVFQvzgAAAA==[0m37
+   originally caused by:
+    Started by an SCM change
+  Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+  Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kBgDpBzOE1QAAAA==[0m26
+  originally caused by:
+   Started by upstream project "[8mha:AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP3SvMyS+JLU4pL43PyU0pzUYn0ABEmBrMwAAAA=[0munit_test_modules" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JP3SvMyS+JLU4pL43PyU0pzUYn0TAwBxV3H+zgAAAA==[0m40
+   originally caused by:
+    Started by an SCM change
+  Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+  Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+  Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+Building remotely on [8mha:AAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAz2EgZB/eT83ILSktQi/bLE9KLEvBIAdgC8CcYAAAA=[0mvagrant in workspace /Users/ccaum/projects/cd-prototype/workspace/Deploy to staging
+[Deploy to staging] $ /bin/sh -xe /var/folders/sv/1kbtchzx3v36y2pk0mzxhgyc0000gp/T/hudson9149644314385095076.sh
++ cd /Users/ccaum/cd-prototype/stages/staging
++ vagrant provision
+[mysql] Running provisioner: shell...
+[mysql] Running: /Users/ccaum/projects/cd-puppet/stages/staging/provisions/ubuntu.sh
+stdin: is not a tty
+/usr/bin/puppet
+[mysql] Running provisioner: shell...
+[mysql] Running: /Users/ccaum/projects/cd-puppet/stages/staging/provisions/run-puppet.sh
+stdin: is not a tty
+host { 'puppet':
+  ensure => 'present',
+  ip     => '172.16.1.10',
+  target => '/etc/hosts',
+}
+
+[0;32mInfo: Retrieving plugin[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/pe_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/concat_basedir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/etckepper_puppet.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/postgres_default_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/puppet_vardir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_persistent_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/ip6tables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/facter_dot_d.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/root_home.rb[0m
+
+[0;32mInfo: Caching catalog for mysql-staging.vagrant.internal[0m
+
+[0;32mInfo: Applying configuration version 'd65eff0'[0m
+
+[mNotice: Finished catalog run in 0.96 seconds[0m
+
+[corpsite] Running provisioner: shell...
+[corpsite] Running: /Users/ccaum/projects/cd-puppet/stages/staging/provisions/ubuntu.sh
+stdin: is not a tty
+/usr/bin/puppet
+[corpsite] Running provisioner: shell...
+[corpsite] Running: /Users/ccaum/projects/cd-puppet/stages/staging/provisions/run-puppet.sh
+stdin: is not a tty
+host { 'puppet':
+  ensure => 'present',
+  ip     => '172.16.1.10',
+  target => '/etc/hosts',
+}
+
+[0;32mInfo: Retrieving plugin[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/pe_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/concat_basedir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/etckepper_puppet.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/postgres_default_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/puppet_vardir.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/iptables_persistent_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/ip6tables_version.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/facter_dot_d.rb[0m
+
+[0;32mInfo: Loading facts in /var/lib/puppet/lib/facter/root_home.rb[0m
+
+[0;32mInfo: Caching catalog for corpsite-staging.vagrant.internal[0m
+
+[0;32mInfo: Applying configuration version 'd65eff0'[0m
+
+[mNotice: Finished catalog run in 4.95 seconds[0m
+
+Triggering a new build of [8mha:AAAAsR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyZEgY1/az8JH3HgoKczOTEksz8PFUjA8fk5NSCksS85FQgJyS1uKRYHwAvwFp02wAAAA==[0mApplication Acceptance Tests #7
+Finished: SUCCESS

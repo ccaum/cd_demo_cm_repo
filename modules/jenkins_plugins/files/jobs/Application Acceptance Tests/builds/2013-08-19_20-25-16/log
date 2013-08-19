@@ -1,0 +1,44 @@
+Started by upstream project "[8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZp/az8JH2X1IKc/EpVI4OSfCBRXJKYDjRMHwD9mylC0AAAAA==[0mDeploy to staging" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBhn9rPwkfZfUgpz8SlUjg5J8IFFckpgONEzfHADsis5G0QAAAA==[0m7
+originally caused by:
+ Started by upstream project "[8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyhEgYZ/az8JP2CovxcoLyqkQFQV1pmOpBRnFqiDwAnMxEF0QAAAA==[0mpromote config set" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBln9rPwk/YKi/FygvKqRAVBXWmY6kFGcWqJvDgB1vwxx0gAAAA==[0m7
+ originally caused by:
+  Started by upstream project "[8mha:AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy+EgYx/az8JP2AnMSStPyiXFUjg5DU4pJifQBKmfopywAAAA==[0mPlatform Tests" build number [8mha:AAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYJ/az8JP2AnMSStPyiXFUjg5DU4pJifUNDAG9TtxnNAAAA[0m11
+  originally caused by:
+   Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+   originally caused by:
+    Started by upstream project "[8mha:AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP3SvMyS+JLU4pL43PyU0pzUYn0ABEmBrMwAAAA=[0munit_test_modules" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JP3SvMyS+JLU4pL43PyU0pzUYn1jcwAVVFQvzgAAAA==[0m37
+    originally caused by:
+     Started by an SCM change
+   Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+   Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kBgDpBzOE1QAAAA==[0m26
+   originally caused by:
+    Started by upstream project "[8mha:AAAAox+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzBEgZx/az8JP3SvMyS+JLU4pL43PyU0pzUYn0ABEmBrMwAAAA=[0munit_test_modules" build number [8mha:AAAApR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgZJ/az8JP3SvMyS+JLU4pL43PyU0pzUYn0TAwBxV3H+zgAAAA==[0m40
+    originally caused by:
+     Started by an SCM change
+   Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+   Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+   Started by upstream project "[8mha:AAAAqR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyREgY5/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXog8ASuj/bdMAAAA=[0mPrep dev environment" build number [8mha:AAAAqx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYF/az8JP2AotQCVSODlNQyIJmaV5ZZlJ+Xm5pXom9kCgBTVjod1QAAAA==[0m25
+Building on master in workspace /var/lib/jenkins/jobs/Application Acceptance Tests/workspace
+[workspace] $ /bin/sh -xe /tmp/hudson3260894947401772752.sh
++ grep '<img width="849" height="288" src="http://172.16.2.16/wp-content/uploads/2013/08/banner-shirtback.jpg" class="attachment-post-thumbnail wp-post-image" alt="banner-shirtback" />'
++ curl http://172.16.2.16
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0102  4089  102  4089    0     0  10030      0 --:--:-- --:--:-- --:--:-- 10197
+				<img width="849" height="288" src="http://172.16.2.16/wp-content/uploads/2013/08/banner-shirtback.jpg" class="attachment-post-thumbnail wp-post-image" alt="banner-shirtback" />			</a>
++ PATH=/bin:/usr/bin:/usr/local/bin
++ wget http://172.16.2.16/wp-content/uploads/2013/08/banner-shirtback.jpg -O /dev/null
+--2013-08-19 20:25:16--  http://172.16.2.16/wp-content/uploads/2013/08/banner-shirtback.jpg
+Connecting to 172.16.2.16:80... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 148279 (145K) [image/jpeg]
+Saving to: “/dev/null”
+
+     0K .......... .......... .......... .......... .......... 34% 28.0M 0s
+    50K .......... .......... .......... .......... .......... 69% 29.7M 0s
+   100K .......... .......... .......... .......... ....      100% 57.2M=0.004s
+
+2013-08-19 20:25:16 (34.0 MB/s) - “/dev/null” saved [148279/148279]
+
+Triggering a new build of [8mha:AAAArh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAypEgYN/az8JP2AovxcoLyqkQFQV1pmOpBRnFoCJEvygURBUX6KPgCYmwQF3QAAAA==[0mPromote config set to prod #4
+Finished: SUCCESS

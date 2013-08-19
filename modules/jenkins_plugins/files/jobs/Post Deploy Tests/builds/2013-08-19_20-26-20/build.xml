@@ -1,0 +1,94 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causes>
+        <hudson.model.Cause_-UpstreamCause>
+          <upstreamProject>Deploy to Production</upstreamProject>
+          <upstreamUrl>job/Deploy%20to%20Production/</upstreamUrl>
+          <upstreamBuild>3</upstreamBuild>
+          <upstreamCauses>
+            <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView_-MyUserIdCause plugin="build-pipeline-plugin@1.3.5">
+              <outer-class>
+                <owner class="hudson.model.Hudson">
+                  <disabledAdministrativeMonitors>
+                    <string>jenkins.diagnostics.SecurityIsOffMonitor</string>
+                  </disabledAdministrativeMonitors>
+                  <version>1.0</version>
+                  <numExecutors>2</numExecutors>
+                  <mode>NORMAL</mode>
+                  <useSecurity>true</useSecurity>
+                  <authorizationStrategy class="hudson.security.AuthorizationStrategy$Unsecured"/>
+                  <securityRealm class="hudson.security.SecurityRealm$None"/>
+                  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+                  <workspaceDir>${ITEM_ROOTDIR}/workspace</workspaceDir>
+                  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+                  <jdks/>
+                  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+                  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+                  <clouds/>
+                  <slaves>
+                    <hudson.slaves.DumbSlave>
+                      <name>vagrant</name>
+                      <description>vagrant server</description>
+                      <remoteFS>/Users/ccaum/projects/cd-prototype</remoteFS>
+                      <numExecutors>1</numExecutors>
+                      <mode>NORMAL</mode>
+                      <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
+                      <launcher class="hudson.slaves.JNLPLauncher"/>
+                      <label>vagrant</label>
+                      <nodeProperties/>
+                      <userId>anonymous</userId>
+                    </hudson.slaves.DumbSlave>
+                  </slaves>
+                  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+                  <views>
+                    <hudson.model.AllView>
+                      <owner class="hudson.model.Hudson" reference="../../.."/>
+                      <name>All</name>
+                      <filterExecutors>false</filterExecutors>
+                      <filterQueue>false</filterQueue>
+                      <properties class="hudson.model.View$PropertyList"/>
+                    </hudson.model.AllView>
+                    <au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView reference="../../.."/>
+                  </views>
+                  <primaryView>All</primaryView>
+                  <slaveAgentPort>0</slaveAgentPort>
+                  <label></label>
+                  <nodeProperties/>
+                  <globalNodeProperties/>
+                </owner>
+                <name>Build Pipeline</name>
+                <filterExecutors>false</filterExecutors>
+                <filterQueue>false</filterQueue>
+                <properties class="hudson.model.View$PropertyList"/>
+                <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
+                  <firstJob>unit_test_modules</firstJob>
+                </gridBuilder>
+                <noOfDisplayedBuilds>1</noOfDisplayedBuilds>
+                <buildViewTitle>Build Pipeline</buildViewTitle>
+                <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
+                <alwaysAllowManualTrigger>true</alwaysAllowManualTrigger>
+                <showPipelineParameters>false</showPipelineParameters>
+                <showPipelineParametersInHeaders>false</showPipelineParametersInHeaders>
+                <refreshFrequency>3</refreshFrequency>
+                <showPipelineDefinitionHeader>false</showPipelineDefinitionHeader>
+              </outer-class>
+            </au.com.centrumsystems.hudson.plugin.buildpipeline.BuildPipelineView_-MyUserIdCause>
+          </upstreamCauses>
+        </hudson.model.Cause_-UpstreamCause>
+      </causes>
+    </hudson.model.CauseAction>
+  </actions>
+  <number>3</number>
+  <startTime>1376943980025</startTime>
+  <result>SUCCESS</result>
+  <duration>136</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn></builtOn>
+  <workspace>/var/lib/jenkins/jobs/Post Deploy Tests/workspace</workspace>
+  <hudsonVersion>1.528</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="com.google.common.collect.EmptyImmutableSortedSet"/>
+</build>
