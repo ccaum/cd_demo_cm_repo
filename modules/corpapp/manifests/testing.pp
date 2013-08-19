@@ -52,6 +52,15 @@ class corpapp::testing {
     mode   => 700,
   }
 
+  file { 'jenkins known hosts':
+    path   => '/var/lib/jenkins/.ssh/known_hosts',
+    ensure => file,
+    source => 'puppet:///modules/corpapp/known_hosts',
+    mode   => 0644,
+    owner  => jenkins,
+    group  => jenkins,
+  }
+
   file { 'jenkins private ssh key':
     path   => '/var/lib/jenkins/.ssh/id_rsa',
     source => 'puppet:///modules/corpapp/id_rsa',
