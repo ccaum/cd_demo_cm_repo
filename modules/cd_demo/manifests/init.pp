@@ -5,6 +5,11 @@ class cd_demo {
     ip => $ipaddress_eth1,
   }
 
+  file { '/root/.bashrc':
+    ensure => file,
+    source => 'puppet:///modules/cd_demo/bashrc',
+  }
+
   exec { 'puppetdb-ssl-setup':
     path        => '/bin:/usr/sbin:/usr/bin:/usr/local/bin:/sbin',
     refreshonly => true,
