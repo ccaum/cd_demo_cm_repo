@@ -5,6 +5,11 @@ class cd_demo {
     ip => $ipaddress_eth1,
   }
 
+  file { '/root/.gitconfig':
+    ensure => file,
+    source => 'puppet:///modules/jenkins_plugins/gitconfig',
+  }
+
   file { '/root/.bashrc':
     ensure => file,
     source => 'puppet:///modules/cd_demo/bashrc',
