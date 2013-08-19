@@ -49,7 +49,7 @@
   <triggers>
     <hudson.triggers.SCMTrigger>
       <spec># Poll every minute
-* * * * *</spec>
+H * * * *</spec>
       <ignorePostCommitHooks>false</ignorePostCommitHooks>
     </hudson.triggers.SCMTrigger>
   </triggers>

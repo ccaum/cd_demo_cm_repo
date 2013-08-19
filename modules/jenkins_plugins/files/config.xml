@@ -48,7 +48,7 @@
       <gridBuilder class="au.com.centrumsystems.hudson.plugin.buildpipeline.DownstreamProjectGridBuilder">
         <firstJob>unit_test_modules</firstJob>
       </gridBuilder>
-      <noOfDisplayedBuilds>3</noOfDisplayedBuilds>
+      <noOfDisplayedBuilds>1</noOfDisplayedBuilds>
       <buildViewTitle>Build Pipeline</buildViewTitle>
       <triggerOnlyLatestJob>false</triggerOnlyLatestJob>
       <alwaysAllowManualTrigger>true</alwaysAllowManualTrigger>
