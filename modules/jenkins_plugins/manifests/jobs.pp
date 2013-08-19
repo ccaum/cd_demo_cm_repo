@@ -8,4 +8,9 @@ class jenkins_plugins::jobs {
     group    => jenkins,
     notify   => Class['jenkins::service'],
   }
+
+  file { '/var/lib/jenkins/.gitconfig':
+    ensure => file,
+    source => 'puppet:///modules/jenkins_plugins/gitconfig',
+  }
 }
