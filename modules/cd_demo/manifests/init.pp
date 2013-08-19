@@ -12,10 +12,16 @@ class cd_demo {
     before      => Service['puppetdb'],
   }
 
+  package { 'rubygem-json':
+    ensure => installed,
+    before => File['/etc/puppet/rack/config.ru'],
+  }
+
   package { 'json':
     ensure   => installed,
     provider => gem,
     before   => File['/etc/puppet/rack/config.ru'],
+    require  => Class['ruby::dev'],
   }
 
   package { 'rack':
