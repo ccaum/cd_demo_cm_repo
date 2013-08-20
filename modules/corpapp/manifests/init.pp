@@ -18,9 +18,25 @@ class corpapp {
     notify => Service['httpd'],
   }
 
-  file { '/opt/wordpress/wp-content/uploads/2013': ensure  => directory,
+  file { '/opt/wordpress/wp-content/uploads/2013': 
+    ensure  => directory,
     source  => 'puppet:///modules/corpapp/2013',
-    recurse => true,
+    owner   => 'www-data',
+    group   => 0,
+    notify  => Service['httpd'],
+  }
+
+  file { '/opt/wordpress/wp-content/uploads/2013/08': 
+    ensure  => directory,
+    source  => 'puppet:///modules/corpapp/2013/08',
+    owner   => 'www-data',
+    group   => 0,
+    notify  => Service['httpd'],
+  }
+
+  file { '/opt/wordpress/wp-content/uploads/2013/08/banner-shirtback.jpg': 
+    ensure  => file,
+    source  => 'puppet:///modules/corpapp/2013/08/banner-shirtback.jpg',
     owner   => 'www-data',
     group   => 0,
     notify  => Service['httpd'],
