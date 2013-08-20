@@ -20,7 +20,7 @@
     <slave>
       <name>vagrant</name>
       <description>vagrant server</description>
-      <remoteFS>/Users/ccaum/projects/cd-prototype</remoteFS>
+      <remoteFS>/tmp/cd-prototype</remoteFS>
       <numExecutors>1</numExecutors>
       <mode>NORMAL</mode>
       <retentionStrategy class="hudson.slaves.RetentionStrategy$Always"/>
