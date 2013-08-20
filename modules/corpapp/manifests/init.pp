@@ -25,7 +25,7 @@ class corpapp {
     notify => Service['httpd'],
   }
 
-  file { "${wordpress::install_dir}/wp-content/uploads/2013:
+  file { "${wordpress::install_dir}/wp-content/uploads/2013":
     ensure  => directory,
     source  => 'puppet:///modules/corpapp/2013',
     owner   => 'www-data',
@@ -33,7 +33,7 @@ class corpapp {
     notify  => Service['httpd'],
   }
 
-  file { "${wordpress::install_dir}/wp-content/uploads/2013/08:
+  file { "${wordpress::install_dir}/wp-content/uploads/2013/08":
     ensure  => directory,
     source  => 'puppet:///modules/corpapp/2013/08',
     owner   => 'www-data',
