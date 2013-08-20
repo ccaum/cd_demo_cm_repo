@@ -14,7 +14,7 @@
   <concurrentBuild>false</concurrentBuild>
   <builders>
     <hudson.tasks.Shell>
-      <command>ssh root@localhost &apos;bash /root/reset-certs.sh&apos;</command>
+      <command>ssh root@localhost &apos;bash /root/reset-dev-certs.sh&apos;</command>
     </hudson.tasks.Shell>
   </builders>
   <publishers>

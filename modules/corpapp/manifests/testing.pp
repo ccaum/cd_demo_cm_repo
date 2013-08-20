@@ -15,8 +15,15 @@ class corpapp::testing {
     ensure => installed,
   }
 
-  file { '/root/reset-certs.sh':
-    source => 'puppet:///modules/corpapp/reset-certs.sh',
+  file { '/root/reset-all-certs.sh':
+    source => 'puppet:///modules/corpapp/reset-all-certs.sh',
+    owner  => 0,
+    group  => 0,
+    mode   => 0755,
+  }
+
+  file { '/root/reset-dev-certs.sh':
+    source => 'puppet:///modules/corpapp/reset-dev-certs.sh',
     owner  => 0,
     group  => 0,
     mode   => 0755,
