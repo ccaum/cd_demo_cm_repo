@@ -11,7 +11,7 @@ class corpapp {
     docroot    => $wordpress::install_dir,
   }
 
-  file { "${wordpress::install_dir}/wp-content":
+  file { "/opt/wordpress/wp-content":
     ensure => directory,
     owner  => 'www-data',
     mode   => '0640',
@@ -41,7 +41,7 @@ class corpapp {
     notify  => Service['httpd'],
   }
 
-  file { "/opt/wordpress/wp-content/uploads/2013/08/banner-shirtback.jpg": 
+  file { "${wordpress::install_dir}/wp-content/uploads/2013/08/banner-shirtback.jpg":
     ensure  => file,
     source  => 'puppet:///modules/corpapp/2013/08/banner-shirtback.jpg',
     owner   => 'www-data',
